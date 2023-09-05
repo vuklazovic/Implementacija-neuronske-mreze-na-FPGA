@@ -6,3 +6,7 @@ Model vestake inteligencije je obucen na MNIST dataset-u pomocu backpropagation 
 
 
 ![tikz12](https://github.com/vuklazovic/Implementacija-neuronske-mreze-na-FPGA/assets/68462413/4a32d0e8-555d-4334-a3aa-952e0027fbd5)
+
+## Testiranje
+
+

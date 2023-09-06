@@ -25,7 +25,7 @@ else
 fi
 export LD_LIBRARY_PATH
 
-HD_PWD='C:/Users/cevy/ima potencijal/ima potencijal.runs/impl_1'
+HD_PWD='C:/Users/cevy/Desktop/Implementacija-neuronske-mreze-na-FPGA/verilog/project/gotov proij.runs/impl_1'
 cd "$HD_PWD"
 
 HD_LOG=runme.log

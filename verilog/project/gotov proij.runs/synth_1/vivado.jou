@@ -3,12 +3,12 @@
 # SW Build 3865809 on Sun May  7 15:05:29 MDT 2023
 # IP Build 3864474 on Sun May  7 20:36:21 MDT 2023
 # SharedData Build 3865790 on Sun May 07 13:33:03 MDT 2023
-# Start of session at: Tue Sep  5 13:37:04 2023
-# Process ID: 10016
-# Current directory: C:/Users/cevy/ima potencijal/ima potencijal.runs/synth_1
+# Start of session at: Tue Sep  5 21:54:13 2023
+# Process ID: 19192
+# Current directory: C:/Users/cevy/Desktop/Implementacija-neuronske-mreze-na-FPGA/verilog/project/gotov proij.runs/synth_1
 # Command line: vivado.exe -log source.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source source.tcl
-# Log file: C:/Users/cevy/ima potencijal/ima potencijal.runs/synth_1/source.vds
-# Journal file: C:/Users/cevy/ima potencijal/ima potencijal.runs/synth_1\vivado.jou
+# Log file: C:/Users/cevy/Desktop/Implementacija-neuronske-mreze-na-FPGA/verilog/project/gotov proij.runs/synth_1/source.vds
+# Journal file: C:/Users/cevy/Desktop/Implementacija-neuronske-mreze-na-FPGA/verilog/project/gotov proij.runs/synth_1\vivado.jou
 # Running On: vuk, OS: Windows, CPU Frequency: 3593 MHz, CPU Physical cores: 12, Host memory: 17128 MB
 #-----------------------------------------------------------
 source source.tcl -notrace

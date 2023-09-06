@@ -17,7 +17,7 @@ proc create_report { reportName command } {
   }
 }
 namespace eval ::optrace {
-  variable script "C:/Users/cevy/ima potencijal/ima potencijal.runs/impl_1/source.tcl"
+  variable script "C:/Users/cevy/Desktop/Implementacija-neuronske-mreze-na-FPGA/verilog/project/gotov proij.runs/impl_1/source.tcl"
   variable category "vivado_impl"
 }
 
@@ -123,7 +123,6 @@ set ACTIVE_STEP init_design
 set rc [catch {
   create_msg_db init_design.pb
   set_param chipscope.maxJobs 3
-  set_param xicom.use_bs_reader 1
   set_param runs.launchOptions { -jobs 6  }
 OPTRACE "create in-memory project" START { }
   create_project -in_memory -part xc7z020clg400-1
@@ -133,13 +132,13 @@ OPTRACE "create in-memory project" START { }
   set_param project.singleFileAddWarning.threshold 0
 OPTRACE "create in-memory project" END { }
 OPTRACE "set parameters" START { }
-  set_property webtalk.parent_dir {C:/Users/cevy/ima potencijal/ima potencijal.cache/wt} [current_project]
-  set_property parent.project_path {C:/Users/cevy/ima potencijal/ima potencijal.xpr} [current_project]
-  set_property ip_output_repo {{C:/Users/cevy/ima potencijal/ima potencijal.cache/ip}} [current_project]
+  set_property webtalk.parent_dir {C:/Users/cevy/Desktop/Implementacija-neuronske-mreze-na-FPGA/verilog/project/gotov proij.cache/wt} [current_project]
+  set_property parent.project_path {C:/Users/cevy/Desktop/Implementacija-neuronske-mreze-na-FPGA/verilog/project/gotov proij.xpr} [current_project]
+  set_property ip_output_repo {{C:/Users/cevy/Desktop/Implementacija-neuronske-mreze-na-FPGA/verilog/project/gotov proij.cache/ip}} [current_project]
   set_property ip_cache_permissions {read write} [current_project]
 OPTRACE "set parameters" END { }
 OPTRACE "add files" START { }
-  add_files -quiet {{C:/Users/cevy/ima potencijal/ima potencijal.runs/synth_1/source.dcp}}
+  add_files -quiet {{C:/Users/cevy/Desktop/Implementacija-neuronske-mreze-na-FPGA/verilog/project/gotov proij.runs/synth_1/source.dcp}}
 OPTRACE "read constraints: implementation" START { }
   read_xdc {{C:/Users/cevy/Downloads/pynq-z2_v1.0.xdc/PYNQ-Z2 v1.0.xdc}}
 OPTRACE "read constraints: implementation" END { }

@@ -3,18 +3,18 @@
 # SW Build 3865809 on Sun May  7 15:05:29 MDT 2023
 # IP Build 3864474 on Sun May  7 20:36:21 MDT 2023
 # SharedData Build 3865790 on Sun May 07 13:33:03 MDT 2023
-# Start of session at: Tue Sep  5 13:37:04 2023
-# Process ID: 10016
-# Current directory: C:/Users/cevy/ima potencijal/ima potencijal.runs/synth_1
+# Start of session at: Tue Sep  5 21:54:13 2023
+# Process ID: 19192
+# Current directory: C:/Users/cevy/Desktop/Implementacija-neuronske-mreze-na-FPGA/verilog/project/gotov proij.runs/synth_1
 # Command line: vivado.exe -log source.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source source.tcl
-# Log file: C:/Users/cevy/ima potencijal/ima potencijal.runs/synth_1/source.vds
-# Journal file: C:/Users/cevy/ima potencijal/ima potencijal.runs/synth_1\vivado.jou
+# Log file: C:/Users/cevy/Desktop/Implementacija-neuronske-mreze-na-FPGA/verilog/project/gotov proij.runs/synth_1/source.vds
+# Journal file: C:/Users/cevy/Desktop/Implementacija-neuronske-mreze-na-FPGA/verilog/project/gotov proij.runs/synth_1\vivado.jou
 # Running On: vuk, OS: Windows, CPU Frequency: 3593 MHz, CPU Physical cores: 12, Host memory: 17128 MB
 #-----------------------------------------------------------
 source source.tcl -notrace
-create_project: Time (s): cpu = 00:00:05 ; elapsed = 00:00:09 . Memory (MB): peak = 1900.801 ; gain = 161.066
-Command: read_checkpoint -auto_incremental -incremental {C:/Users/cevy/ima potencijal/ima potencijal.srcs/utils_1/imports/synth_1/source.dcp}
-INFO: [Vivado 12-5825] Read reference checkpoint from C:/Users/cevy/ima potencijal/ima potencijal.srcs/utils_1/imports/synth_1/source.dcp for incremental synthesis
+create_project: Time (s): cpu = 00:00:05 ; elapsed = 00:00:08 . Memory (MB): peak = 1901.855 ; gain = 160.207
+Command: read_checkpoint -auto_incremental -incremental {C:/Users/cevy/Desktop/Implementacija-neuronske-mreze-na-FPGA/verilog/project/gotov proij.srcs/utils_1/imports/synth_1/source.dcp}
+INFO: [Vivado 12-5825] Read reference checkpoint from C:/Users/cevy/Desktop/Implementacija-neuronske-mreze-na-FPGA/verilog/project/gotov proij.srcs/utils_1/imports/synth_1/source.dcp for incremental synthesis
 INFO: [Vivado 12-7989] Please ensure there are no constraint changes
 Command: synth_design -top source -part xc7z020clg400-1
 Starting synth_design
@@ -25,57 +25,57 @@ INFO: [Designutils 20-5440] No compile time benefit to using incremental synthes
 INFO: [Designutils 20-4379] Flow is switching to default flow due to incremental criteria not met. If you would like to alter this behaviour and have the flow terminate instead, please set the following parameter config_implementation {autoIncr.Synth.RejectBehavior Terminate}
 INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
 INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
-INFO: [Synth 8-7075] Helper process launched with PID 20840
+INFO: [Synth 8-7075] Helper process launched with PID 5012
 ---------------------------------------------------------------------------------
-Starting RTL Elaboration : Time (s): cpu = 00:00:06 ; elapsed = 00:00:07 . Memory (MB): peak = 2750.066 ; gain = 411.316
+Starting RTL Elaboration : Time (s): cpu = 00:00:05 ; elapsed = 00:00:07 . Memory (MB): peak = 2751.523 ; gain = 411.094
 ---------------------------------------------------------------------------------
-INFO: [Synth 8-6157] synthesizing module 'source' [C:/Users/cevy/ima potencijal/ima potencijal.srcs/sources_1/new/source.v:1]
-INFO: [Synth 8-6155] done synthesizing module 'source' (0#1) [C:/Users/cevy/ima potencijal/ima potencijal.srcs/sources_1/new/source.v:1]
-WARNING: [Synth 8-6014] Unused sequential element suma_reg was removed.  [C:/Users/cevy/ima potencijal/ima potencijal.srcs/sources_1/new/source.v:64]
-WARNING: [Synth 8-6014] Unused sequential element hidden_layer_reg[0] was removed.  [C:/Users/cevy/ima potencijal/ima potencijal.srcs/sources_1/new/source.v:70]
-WARNING: [Synth 8-6014] Unused sequential element hidden_layer_reg[1] was removed.  [C:/Users/cevy/ima potencijal/ima potencijal.srcs/sources_1/new/source.v:70]
-WARNING: [Synth 8-6014] Unused sequential element hidden_layer_reg[2] was removed.  [C:/Users/cevy/ima potencijal/ima potencijal.srcs/sources_1/new/source.v:70]
-WARNING: [Synth 8-6014] Unused sequential element hidden_layer_reg[3] was removed.  [C:/Users/cevy/ima potencijal/ima potencijal.srcs/sources_1/new/source.v:70]
-WARNING: [Synth 8-6014] Unused sequential element hidden_layer_reg[4] was removed.  [C:/Users/cevy/ima potencijal/ima potencijal.srcs/sources_1/new/source.v:70]
-WARNING: [Synth 8-6014] Unused sequential element hidden_layer_reg[5] was removed.  [C:/Users/cevy/ima potencijal/ima potencijal.srcs/sources_1/new/source.v:70]
-WARNING: [Synth 8-6014] Unused sequential element hidden_layer_reg[6] was removed.  [C:/Users/cevy/ima potencijal/ima potencijal.srcs/sources_1/new/source.v:70]
-WARNING: [Synth 8-6014] Unused sequential element hidden_layer_reg[7] was removed.  [C:/Users/cevy/ima potencijal/ima potencijal.srcs/sources_1/new/source.v:70]
-WARNING: [Synth 8-6014] Unused sequential element hidden_layer_reg[8] was removed.  [C:/Users/cevy/ima potencijal/ima potencijal.srcs/sources_1/new/source.v:70]
-WARNING: [Synth 8-6014] Unused sequential element hidden_layer_reg[9] was removed.  [C:/Users/cevy/ima potencijal/ima potencijal.srcs/sources_1/new/source.v:70]
-WARNING: [Synth 8-6014] Unused sequential element hidden_layer_reg[10] was removed.  [C:/Users/cevy/ima potencijal/ima potencijal.srcs/sources_1/new/source.v:70]
-WARNING: [Synth 8-6014] Unused sequential element hidden_layer_reg[11] was removed.  [C:/Users/cevy/ima potencijal/ima potencijal.srcs/sources_1/new/source.v:70]
-WARNING: [Synth 8-6014] Unused sequential element hidden_layer_reg[12] was removed.  [C:/Users/cevy/ima potencijal/ima potencijal.srcs/sources_1/new/source.v:70]
-WARNING: [Synth 8-6014] Unused sequential element hidden_layer_reg[13] was removed.  [C:/Users/cevy/ima potencijal/ima potencijal.srcs/sources_1/new/source.v:70]
-WARNING: [Synth 8-6014] Unused sequential element hidden_layer_reg[14] was removed.  [C:/Users/cevy/ima potencijal/ima potencijal.srcs/sources_1/new/source.v:70]
-WARNING: [Synth 8-6014] Unused sequential element hidden_layer_reg[15] was removed.  [C:/Users/cevy/ima potencijal/ima potencijal.srcs/sources_1/new/source.v:70]
-WARNING: [Synth 8-6014] Unused sequential element hidden_layer_reg[16] was removed.  [C:/Users/cevy/ima potencijal/ima potencijal.srcs/sources_1/new/source.v:70]
-WARNING: [Synth 8-6014] Unused sequential element hidden_layer_reg[17] was removed.  [C:/Users/cevy/ima potencijal/ima potencijal.srcs/sources_1/new/source.v:70]
-WARNING: [Synth 8-6014] Unused sequential element hidden_layer_reg[18] was removed.  [C:/Users/cevy/ima potencijal/ima potencijal.srcs/sources_1/new/source.v:70]
-WARNING: [Synth 8-6014] Unused sequential element hidden_layer_reg[19] was removed.  [C:/Users/cevy/ima potencijal/ima potencijal.srcs/sources_1/new/source.v:70]
-WARNING: [Synth 8-6014] Unused sequential element output_layer_reg[0] was removed.  [C:/Users/cevy/ima potencijal/ima potencijal.srcs/sources_1/new/source.v:92]
-WARNING: [Synth 8-6014] Unused sequential element output_layer_reg[1] was removed.  [C:/Users/cevy/ima potencijal/ima potencijal.srcs/sources_1/new/source.v:92]
-WARNING: [Synth 8-6014] Unused sequential element output_layer_reg[2] was removed.  [C:/Users/cevy/ima potencijal/ima potencijal.srcs/sources_1/new/source.v:92]
-WARNING: [Synth 8-6014] Unused sequential element output_layer_reg[3] was removed.  [C:/Users/cevy/ima potencijal/ima potencijal.srcs/sources_1/new/source.v:92]
-WARNING: [Synth 8-6014] Unused sequential element output_layer_reg[4] was removed.  [C:/Users/cevy/ima potencijal/ima potencijal.srcs/sources_1/new/source.v:92]
-WARNING: [Synth 8-6014] Unused sequential element output_layer_reg[5] was removed.  [C:/Users/cevy/ima potencijal/ima potencijal.srcs/sources_1/new/source.v:92]
-WARNING: [Synth 8-6014] Unused sequential element output_layer_reg[6] was removed.  [C:/Users/cevy/ima potencijal/ima potencijal.srcs/sources_1/new/source.v:92]
-WARNING: [Synth 8-6014] Unused sequential element output_layer_reg[7] was removed.  [C:/Users/cevy/ima potencijal/ima potencijal.srcs/sources_1/new/source.v:92]
-WARNING: [Synth 8-6014] Unused sequential element output_layer_reg[8] was removed.  [C:/Users/cevy/ima potencijal/ima potencijal.srcs/sources_1/new/source.v:92]
-WARNING: [Synth 8-6014] Unused sequential element output_layer_reg[9] was removed.  [C:/Users/cevy/ima potencijal/ima potencijal.srcs/sources_1/new/source.v:92]
-WARNING: [Synth 8-6014] Unused sequential element max_value_reg was removed.  [C:/Users/cevy/ima potencijal/ima potencijal.srcs/sources_1/new/source.v:108]
+INFO: [Synth 8-6157] synthesizing module 'source' [C:/Users/cevy/Desktop/Implementacija-neuronske-mreze-na-FPGA/verilog/project/gotov proij.srcs/sources_1/new/source.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'source' (0#1) [C:/Users/cevy/Desktop/Implementacija-neuronske-mreze-na-FPGA/verilog/project/gotov proij.srcs/sources_1/new/source.v:1]
+WARNING: [Synth 8-6014] Unused sequential element suma_reg was removed.  [C:/Users/cevy/Desktop/Implementacija-neuronske-mreze-na-FPGA/verilog/project/gotov proij.srcs/sources_1/new/source.v:65]
+WARNING: [Synth 8-6014] Unused sequential element hidden_layer_reg[0] was removed.  [C:/Users/cevy/Desktop/Implementacija-neuronske-mreze-na-FPGA/verilog/project/gotov proij.srcs/sources_1/new/source.v:71]
+WARNING: [Synth 8-6014] Unused sequential element hidden_layer_reg[1] was removed.  [C:/Users/cevy/Desktop/Implementacija-neuronske-mreze-na-FPGA/verilog/project/gotov proij.srcs/sources_1/new/source.v:71]
+WARNING: [Synth 8-6014] Unused sequential element hidden_layer_reg[2] was removed.  [C:/Users/cevy/Desktop/Implementacija-neuronske-mreze-na-FPGA/verilog/project/gotov proij.srcs/sources_1/new/source.v:71]
+WARNING: [Synth 8-6014] Unused sequential element hidden_layer_reg[3] was removed.  [C:/Users/cevy/Desktop/Implementacija-neuronske-mreze-na-FPGA/verilog/project/gotov proij.srcs/sources_1/new/source.v:71]
+WARNING: [Synth 8-6014] Unused sequential element hidden_layer_reg[4] was removed.  [C:/Users/cevy/Desktop/Implementacija-neuronske-mreze-na-FPGA/verilog/project/gotov proij.srcs/sources_1/new/source.v:71]
+WARNING: [Synth 8-6014] Unused sequential element hidden_layer_reg[5] was removed.  [C:/Users/cevy/Desktop/Implementacija-neuronske-mreze-na-FPGA/verilog/project/gotov proij.srcs/sources_1/new/source.v:71]
+WARNING: [Synth 8-6014] Unused sequential element hidden_layer_reg[6] was removed.  [C:/Users/cevy/Desktop/Implementacija-neuronske-mreze-na-FPGA/verilog/project/gotov proij.srcs/sources_1/new/source.v:71]
+WARNING: [Synth 8-6014] Unused sequential element hidden_layer_reg[7] was removed.  [C:/Users/cevy/Desktop/Implementacija-neuronske-mreze-na-FPGA/verilog/project/gotov proij.srcs/sources_1/new/source.v:71]
+WARNING: [Synth 8-6014] Unused sequential element hidden_layer_reg[8] was removed.  [C:/Users/cevy/Desktop/Implementacija-neuronske-mreze-na-FPGA/verilog/project/gotov proij.srcs/sources_1/new/source.v:71]
+WARNING: [Synth 8-6014] Unused sequential element hidden_layer_reg[9] was removed.  [C:/Users/cevy/Desktop/Implementacija-neuronske-mreze-na-FPGA/verilog/project/gotov proij.srcs/sources_1/new/source.v:71]
+WARNING: [Synth 8-6014] Unused sequential element hidden_layer_reg[10] was removed.  [C:/Users/cevy/Desktop/Implementacija-neuronske-mreze-na-FPGA/verilog/project/gotov proij.srcs/sources_1/new/source.v:71]
+WARNING: [Synth 8-6014] Unused sequential element hidden_layer_reg[11] was removed.  [C:/Users/cevy/Desktop/Implementacija-neuronske-mreze-na-FPGA/verilog/project/gotov proij.srcs/sources_1/new/source.v:71]
+WARNING: [Synth 8-6014] Unused sequential element hidden_layer_reg[12] was removed.  [C:/Users/cevy/Desktop/Implementacija-neuronske-mreze-na-FPGA/verilog/project/gotov proij.srcs/sources_1/new/source.v:71]
+WARNING: [Synth 8-6014] Unused sequential element hidden_layer_reg[13] was removed.  [C:/Users/cevy/Desktop/Implementacija-neuronske-mreze-na-FPGA/verilog/project/gotov proij.srcs/sources_1/new/source.v:71]
+WARNING: [Synth 8-6014] Unused sequential element hidden_layer_reg[14] was removed.  [C:/Users/cevy/Desktop/Implementacija-neuronske-mreze-na-FPGA/verilog/project/gotov proij.srcs/sources_1/new/source.v:71]
+WARNING: [Synth 8-6014] Unused sequential element hidden_layer_reg[15] was removed.  [C:/Users/cevy/Desktop/Implementacija-neuronske-mreze-na-FPGA/verilog/project/gotov proij.srcs/sources_1/new/source.v:71]
+WARNING: [Synth 8-6014] Unused sequential element hidden_layer_reg[16] was removed.  [C:/Users/cevy/Desktop/Implementacija-neuronske-mreze-na-FPGA/verilog/project/gotov proij.srcs/sources_1/new/source.v:71]
+WARNING: [Synth 8-6014] Unused sequential element hidden_layer_reg[17] was removed.  [C:/Users/cevy/Desktop/Implementacija-neuronske-mreze-na-FPGA/verilog/project/gotov proij.srcs/sources_1/new/source.v:71]
+WARNING: [Synth 8-6014] Unused sequential element hidden_layer_reg[18] was removed.  [C:/Users/cevy/Desktop/Implementacija-neuronske-mreze-na-FPGA/verilog/project/gotov proij.srcs/sources_1/new/source.v:71]
+WARNING: [Synth 8-6014] Unused sequential element hidden_layer_reg[19] was removed.  [C:/Users/cevy/Desktop/Implementacija-neuronske-mreze-na-FPGA/verilog/project/gotov proij.srcs/sources_1/new/source.v:71]
+WARNING: [Synth 8-6014] Unused sequential element output_layer_reg[0] was removed.  [C:/Users/cevy/Desktop/Implementacija-neuronske-mreze-na-FPGA/verilog/project/gotov proij.srcs/sources_1/new/source.v:93]
+WARNING: [Synth 8-6014] Unused sequential element output_layer_reg[1] was removed.  [C:/Users/cevy/Desktop/Implementacija-neuronske-mreze-na-FPGA/verilog/project/gotov proij.srcs/sources_1/new/source.v:93]
+WARNING: [Synth 8-6014] Unused sequential element output_layer_reg[2] was removed.  [C:/Users/cevy/Desktop/Implementacija-neuronske-mreze-na-FPGA/verilog/project/gotov proij.srcs/sources_1/new/source.v:93]
+WARNING: [Synth 8-6014] Unused sequential element output_layer_reg[3] was removed.  [C:/Users/cevy/Desktop/Implementacija-neuronske-mreze-na-FPGA/verilog/project/gotov proij.srcs/sources_1/new/source.v:93]
+WARNING: [Synth 8-6014] Unused sequential element output_layer_reg[4] was removed.  [C:/Users/cevy/Desktop/Implementacija-neuronske-mreze-na-FPGA/verilog/project/gotov proij.srcs/sources_1/new/source.v:93]
+WARNING: [Synth 8-6014] Unused sequential element output_layer_reg[5] was removed.  [C:/Users/cevy/Desktop/Implementacija-neuronske-mreze-na-FPGA/verilog/project/gotov proij.srcs/sources_1/new/source.v:93]
+WARNING: [Synth 8-6014] Unused sequential element output_layer_reg[6] was removed.  [C:/Users/cevy/Desktop/Implementacija-neuronske-mreze-na-FPGA/verilog/project/gotov proij.srcs/sources_1/new/source.v:93]
+WARNING: [Synth 8-6014] Unused sequential element output_layer_reg[7] was removed.  [C:/Users/cevy/Desktop/Implementacija-neuronske-mreze-na-FPGA/verilog/project/gotov proij.srcs/sources_1/new/source.v:93]
+WARNING: [Synth 8-6014] Unused sequential element output_layer_reg[8] was removed.  [C:/Users/cevy/Desktop/Implementacija-neuronske-mreze-na-FPGA/verilog/project/gotov proij.srcs/sources_1/new/source.v:93]
+WARNING: [Synth 8-6014] Unused sequential element output_layer_reg[9] was removed.  [C:/Users/cevy/Desktop/Implementacija-neuronske-mreze-na-FPGA/verilog/project/gotov proij.srcs/sources_1/new/source.v:93]
+WARNING: [Synth 8-6014] Unused sequential element max_value_reg was removed.  [C:/Users/cevy/Desktop/Implementacija-neuronske-mreze-na-FPGA/verilog/project/gotov proij.srcs/sources_1/new/source.v:109]
 ---------------------------------------------------------------------------------
-Finished RTL Elaboration : Time (s): cpu = 00:00:10 ; elapsed = 00:00:12 . Memory (MB): peak = 2873.480 ; gain = 534.730
+Finished RTL Elaboration : Time (s): cpu = 00:00:08 ; elapsed = 00:00:12 . Memory (MB): peak = 2873.320 ; gain = 532.891
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Handling Custom Attributes
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Handling Custom Attributes : Time (s): cpu = 00:00:10 ; elapsed = 00:00:12 . Memory (MB): peak = 2891.391 ; gain = 552.641
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:08 ; elapsed = 00:00:12 . Memory (MB): peak = 2891.230 ; gain = 550.801
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:10 ; elapsed = 00:00:12 . Memory (MB): peak = 2891.391 ; gain = 552.641
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:08 ; elapsed = 00:00:12 . Memory (MB): peak = 2891.230 ; gain = 550.801
 ---------------------------------------------------------------------------------
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2891.391 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2891.230 ; gain = 0.000
 INFO: [Project 1-570] Preparing netlist for logic optimization
 
 Processing XDC Constraints
@@ -101,31 +101,31 @@ INFO: [Project 1-236] Implementation specific constraints were found while readi
 Resolution: To avoid this warning, move constraints listed in [.Xil/source_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
 Completed Processing XDC Constraints
 
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2944.508 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2944.375 ; gain = 0.000
 INFO: [Project 1-111] Unisim Transformation Summary:
 No Unisim elements were transformed.
 
-Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.002 . Memory (MB): peak = 2944.508 ; gain = 0.000
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.003 . Memory (MB): peak = 2944.375 ; gain = 0.000
 INFO: [Designutils 20-5440] No compile time benefit to using incremental synthesis; A full resynthesis will be run
 INFO: [Designutils 20-4379] Flow is switching to default flow due to incremental criteria not met. If you would like to alter this behaviour and have the flow terminate instead, please set the following parameter config_implementation {autoIncr.Synth.RejectBehavior Terminate}
 ---------------------------------------------------------------------------------
-Finished Constraint Validation : Time (s): cpu = 00:00:17 ; elapsed = 00:00:22 . Memory (MB): peak = 2944.508 ; gain = 605.758
+Finished Constraint Validation : Time (s): cpu = 00:00:14 ; elapsed = 00:00:21 . Memory (MB): peak = 2944.375 ; gain = 603.945
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Loading Part and Timing Information
 ---------------------------------------------------------------------------------
 Loading part: xc7z020clg400-1
 ---------------------------------------------------------------------------------
-Finished Loading Part and Timing Information : Time (s): cpu = 00:00:17 ; elapsed = 00:00:22 . Memory (MB): peak = 2944.508 ; gain = 605.758
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:14 ; elapsed = 00:00:21 . Memory (MB): peak = 2944.375 ; gain = 603.945
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Applying 'set_property' XDC Constraints
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:17 ; elapsed = 00:00:22 . Memory (MB): peak = 2944.508 ; gain = 605.758
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:14 ; elapsed = 00:00:21 . Memory (MB): peak = 2944.375 ; gain = 603.945
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:17 ; elapsed = 00:00:22 . Memory (MB): peak = 2944.508 ; gain = 605.758
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:15 ; elapsed = 00:00:22 . Memory (MB): peak = 2944.375 ; gain = 603.945
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start RTL Component Statistics 
@@ -150,25 +150,25 @@ Start Cross Boundary and Area Optimization
 ---------------------------------------------------------------------------------
 WARNING: [Synth 8-7080] Parallel synthesis criteria is not met
 ---------------------------------------------------------------------------------
-Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:19 ; elapsed = 00:00:24 . Memory (MB): peak = 2944.508 ; gain = 605.758
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:16 ; elapsed = 00:00:24 . Memory (MB): peak = 2944.375 ; gain = 603.945
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Applying XDC Timing Constraints
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:25 ; elapsed = 00:00:31 . Memory (MB): peak = 2944.508 ; gain = 605.758
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:22 ; elapsed = 00:00:31 . Memory (MB): peak = 2944.375 ; gain = 603.945
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Timing Optimization
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Timing Optimization : Time (s): cpu = 00:00:25 ; elapsed = 00:00:31 . Memory (MB): peak = 2944.508 ; gain = 605.758
+Finished Timing Optimization : Time (s): cpu = 00:00:22 ; elapsed = 00:00:31 . Memory (MB): peak = 2944.375 ; gain = 603.945
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Technology Mapping
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Technology Mapping : Time (s): cpu = 00:00:25 ; elapsed = 00:00:31 . Memory (MB): peak = 2944.508 ; gain = 605.758
+Finished Technology Mapping : Time (s): cpu = 00:00:22 ; elapsed = 00:00:31 . Memory (MB): peak = 2944.375 ; gain = 603.945
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start IO Insertion
@@ -186,37 +186,37 @@ Start Final Netlist Cleanup
 Finished Final Netlist Cleanup
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished IO Insertion : Time (s): cpu = 00:00:30 ; elapsed = 00:00:38 . Memory (MB): peak = 2944.508 ; gain = 605.758
+Finished IO Insertion : Time (s): cpu = 00:00:26 ; elapsed = 00:00:36 . Memory (MB): peak = 2944.375 ; gain = 603.945
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Instances
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Instances : Time (s): cpu = 00:00:30 ; elapsed = 00:00:38 . Memory (MB): peak = 2944.508 ; gain = 605.758
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:26 ; elapsed = 00:00:36 . Memory (MB): peak = 2944.375 ; gain = 603.945
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Rebuilding User Hierarchy
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:30 ; elapsed = 00:00:38 . Memory (MB): peak = 2944.508 ; gain = 605.758
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:26 ; elapsed = 00:00:36 . Memory (MB): peak = 2944.375 ; gain = 603.945
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Ports
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Ports : Time (s): cpu = 00:00:30 ; elapsed = 00:00:38 . Memory (MB): peak = 2944.508 ; gain = 605.758
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:26 ; elapsed = 00:00:36 . Memory (MB): peak = 2944.375 ; gain = 603.945
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Handling Custom Attributes
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Handling Custom Attributes : Time (s): cpu = 00:00:30 ; elapsed = 00:00:38 . Memory (MB): peak = 2944.508 ; gain = 605.758
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:26 ; elapsed = 00:00:36 . Memory (MB): peak = 2944.375 ; gain = 603.945
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Nets
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Nets : Time (s): cpu = 00:00:30 ; elapsed = 00:00:38 . Memory (MB): peak = 2944.508 ; gain = 605.758
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:26 ; elapsed = 00:00:36 . Memory (MB): peak = 2944.375 ; gain = 603.945
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Writing Synthesis Report
@@ -238,25 +238,25 @@ Report Cell Usage:
 |4     |OBUF |     4|
 +------+-----+------+
 ---------------------------------------------------------------------------------
-Finished Writing Synthesis Report : Time (s): cpu = 00:00:30 ; elapsed = 00:00:38 . Memory (MB): peak = 2944.508 ; gain = 605.758
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:26 ; elapsed = 00:00:36 . Memory (MB): peak = 2944.375 ; gain = 603.945
 ---------------------------------------------------------------------------------
 Synthesis finished with 0 errors, 0 critical warnings and 1 warnings.
-Synthesis Optimization Runtime : Time (s): cpu = 00:00:18 ; elapsed = 00:00:35 . Memory (MB): peak = 2944.508 ; gain = 552.641
-Synthesis Optimization Complete : Time (s): cpu = 00:00:30 ; elapsed = 00:00:38 . Memory (MB): peak = 2944.508 ; gain = 605.758
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:16 ; elapsed = 00:00:33 . Memory (MB): peak = 2944.375 ; gain = 550.801
+Synthesis Optimization Complete : Time (s): cpu = 00:00:26 ; elapsed = 00:00:36 . Memory (MB): peak = 2944.375 ; gain = 603.945
 INFO: [Project 1-571] Translating synthesized netlist
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2944.508 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 2944.375 ; gain = 0.000
 INFO: [Project 1-570] Preparing netlist for logic optimization
 INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2944.508 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2944.375 ; gain = 0.000
 INFO: [Project 1-111] Unisim Transformation Summary:
 No Unisim elements were transformed.
 
-Synth Design complete | Checksum: 4d9f8081
+Synth Design complete | Checksum: 287da482
 INFO: [Common 17-83] Releasing license: Synthesis
 21 Infos, 38 Warnings, 5 Critical Warnings and 0 Errors encountered.
 synth_design completed successfully
-synth_design: Time (s): cpu = 00:00:34 ; elapsed = 00:00:44 . Memory (MB): peak = 2944.508 ; gain = 1015.305
+synth_design: Time (s): cpu = 00:00:29 ; elapsed = 00:00:50 . Memory (MB): peak = 2944.375 ; gain = 1014.527
 INFO: [runtcl-6] Synthesis results are not added to the cache due to CRITICAL_WARNING
-INFO: [Common 17-1381] The checkpoint 'C:/Users/cevy/ima potencijal/ima potencijal.runs/synth_1/source.dcp' has been generated.
+INFO: [Common 17-1381] The checkpoint 'C:/Users/cevy/Desktop/Implementacija-neuronske-mreze-na-FPGA/verilog/project/gotov proij.runs/synth_1/source.dcp' has been generated.
 INFO: [runtcl-4] Executing : report_utilization -file source_utilization_synth.rpt -pb source_utilization_synth.pb
-INFO: [Common 17-206] Exiting Vivado at Tue Sep  5 13:38:07 2023...
+INFO: [Common 17-206] Exiting Vivado at Tue Sep  5 21:55:23 2023...

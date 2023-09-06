@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<GenRun Id="impl_1" LaunchPart="xc7z020clg400-1" LaunchTime="1693943649">
+<GenRun Id="impl_1" LaunchPart="xc7z020clg400-1" LaunchTime="1693993824">
   <File Type="ROUTE-PWR" Name="source_power_routed.rpt"/>
   <File Type="PA-TCL" Name="source.tcl"/>
   <File Type="ROUTE-PWR-SUM" Name="source_power_summary_routed.pb"/>
@@ -103,7 +103,7 @@
   </FileSet>
   <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1" RelGenDir="$PGENDIR/constrs_1">
     <Filter Type="Constrs"/>
-    <File Path="$PPRDIR/../../../../Downloads/pynq-z2_v1.0.xdc/PYNQ-Z2 v1.0.xdc">
+    <File Path="$PPRDIR/../constraints/PYNQ-Z2 v1.0.xdc">
       <FileInfo>
         <Attr Name="UsedIn" Val="synthesis"/>
         <Attr Name="UsedIn" Val="implementation"/>

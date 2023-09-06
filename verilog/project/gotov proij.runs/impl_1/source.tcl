@@ -17,7 +17,7 @@ proc create_report { reportName command } {
   }
 }
 namespace eval ::optrace {
-  variable script "C:/Users/cevy/Desktop/Implementacija-neuronske-mreze-na-FPGA/verilog/project/gotov proij.runs/impl_1/source.tcl"
+  variable script "C:/Users/Vuk/Desktop/Implementacija-neuronske-mreze-na-FPGA/verilog/project/gotov proij.runs/impl_1/source.tcl"
   variable category "vivado_impl"
 }
 
@@ -126,21 +126,19 @@ set rc [catch {
   set_param runs.launchOptions { -jobs 6  }
 OPTRACE "create in-memory project" START { }
   create_project -in_memory -part xc7z020clg400-1
-  set_property board_part_repo_paths {C:/Users/cevy/AppData/Roaming/Xilinx/Vivado/2023.1/xhub/board_store/xilinx_board_store} [current_project]
-  set_property board_part tul.com.tw:pynq-z2:part0:1.0 [current_project]
   set_property design_mode GateLvl [current_fileset]
   set_param project.singleFileAddWarning.threshold 0
 OPTRACE "create in-memory project" END { }
 OPTRACE "set parameters" START { }
-  set_property webtalk.parent_dir {C:/Users/cevy/Desktop/Implementacija-neuronske-mreze-na-FPGA/verilog/project/gotov proij.cache/wt} [current_project]
-  set_property parent.project_path {C:/Users/cevy/Desktop/Implementacija-neuronske-mreze-na-FPGA/verilog/project/gotov proij.xpr} [current_project]
-  set_property ip_output_repo {{C:/Users/cevy/Desktop/Implementacija-neuronske-mreze-na-FPGA/verilog/project/gotov proij.cache/ip}} [current_project]
+  set_property webtalk.parent_dir {C:/Users/Vuk/Desktop/Implementacija-neuronske-mreze-na-FPGA/verilog/project/gotov proij.cache/wt} [current_project]
+  set_property parent.project_path {C:/Users/Vuk/Desktop/Implementacija-neuronske-mreze-na-FPGA/verilog/project/gotov proij.xpr} [current_project]
+  set_property ip_output_repo {{C:/Users/Vuk/Desktop/Implementacija-neuronske-mreze-na-FPGA/verilog/project/gotov proij.cache/ip}} [current_project]
   set_property ip_cache_permissions {read write} [current_project]
 OPTRACE "set parameters" END { }
 OPTRACE "add files" START { }
-  add_files -quiet {{C:/Users/cevy/Desktop/Implementacija-neuronske-mreze-na-FPGA/verilog/project/gotov proij.runs/synth_1/source.dcp}}
+  add_files -quiet {{C:/Users/Vuk/Desktop/Implementacija-neuronske-mreze-na-FPGA/verilog/project/gotov proij.runs/synth_1/source.dcp}}
 OPTRACE "read constraints: implementation" START { }
-  read_xdc {{C:/Users/cevy/Downloads/pynq-z2_v1.0.xdc/PYNQ-Z2 v1.0.xdc}}
+  read_xdc {{C:/Users/Vuk/Desktop/Implementacija-neuronske-mreze-na-FPGA/verilog/constraints/PYNQ-Z2 v1.0.xdc}}
 OPTRACE "read constraints: implementation" END { }
 OPTRACE "add files" END { }
 OPTRACE "link_design" START { }
